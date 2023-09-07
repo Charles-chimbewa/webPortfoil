@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Web Developer</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <script src="./jquery-3.7.0.min.js"></script>
+    <script src="./bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container text-center">
+    <section id="about" class="about">
+        <div class="container pt-3">
+            <h1 class="">Hie, I'm Charles a Web Developer</h1>
+        
+            <p>
+                I am a passionate web developer with professional in HTML, CSS, JavaScript,WordPress and more. 
+                I love creating responsive and user-friendly websites that make a difference.
+                With a little knowledge of PHP 
+            </p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2></h2>
+            
+        </style>
+    </head>
+    
+    <body>
+    
+        <div class="slider">
+            <input type="radio" name="testimonial" id="t-1">
+            <input type="radio" name="testimonial" id="t-2">
+            <input type="radio" name="testimonial" id="t-3">
+            <input type="radio" name="testimonial" id="t-4">
+            <input type="radio" name="testimonial" id="t-5">
+    
+            <div class="testimonials">
+                <label class="item" for="t-1">
+                    <p>Your</p>
+                    <img src="web1.jpg" alt="">
+                </label>
+                <label class="item" for="t-2">
+                   <p>Disrable</p>
+                    <img src="web2.webp" alt="">
+                </label>
+                <label class="item" for="t-3">
+                    <p>Web</p>
+                    <img src="web4.png" alt="">
+                </label>
+                <label class="item" for="t-4">
+                    <p>Developer</p>
+                    <img src="web5 (1).png" alt="">
+                </label>
+                <label class="item" for="t-5">
+                   <p> Charles</p>
+                   <img src="web5 (2).png" alt="">
+                </label>
+            </div>
+            <br />
+        </div>
+       
+    </div>
+</nav>
+</header>
+
+<section id="about" class="about">
+<div class="container3">
+    <h2>About Me</h2>
+    <img class="img" src="_MG_8119.jpg" alt="">
+    <p class="about">
+    My name is Charles Chimbewa. I'm from Malawi, and I am highly interested in developing websites. I am ready to create a website that can improve your company and bring positive change. With my expertise, I have managed to build several websites, and I am currently interning at Angaliba Television as a web developer. My future goal is to work hard with the aim of becoming a full-stack developer and eventually establish my own company.
+    </p>
+</div>
+<section id="about" class="about">
+    <div class="container">
+        <h2>contact me</h2>
+        <p>
+            Thank you for visiting my portfolio! If you have any questions, collaboration inquiries,
+             or just want to say hello, please don't hesitate to get in touch with me. I'm always excited to connect with like-minded individuals, potential clients, or fellow creators.
+        </p>
+        <h3>Ways to Reach Me</h3>
+        <p><h2>Email</h2><br>
+            Please don't hesitate to contact me via email at <a href="mailto:chimbewa.jr@gmail.com">chimbewa.jr@gmail.com</a>. I make it a point to frequently review my inbox and will endeavor to respond to your message promptly.
+                      <p> <h2>Social Media:</h2> <br>
+                You can also find me on various social media platforms where I share my thoughts, and inspiration. Connect with me on <a href="#">WhatsApp: +256981 704 136</a>  and <a href="#">Facebook :username chimbewa kay</a></p>
+            <p><h2>Let's Collaborate:</h2><br>
+                Are you interested in working together on a project? Please provide some details about your project, goals, and timeline, and I'll be happy to discuss how we can bring your vision to life.</p>
+                <p><h2>Connect with Me:</h2><br>
+                    Let's connect and explore the possibilities of working together or simply discussing shared interests. I look forward to hearing from you!</p>
+    </div>
+</section>
+</section>
+        <script>
+    
+        const testimonials = document.querySelector('.testimonials');
+        var  inputs = document.querySelectorAll("input[name='testimonial']");
+        let counter = 0;
+    
+    
+        function Testimonial(n) {
+        inputs[n].checked = true;
+    }
+    
+    function swap() {
+        counter = (counter + 1) % inputs.length;
+            Testimonial(counter);
+    }
+    
+            setInterval(() => {
+                swap();
+            }, 2000);
+        </script>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container text-center font-weight-bolder">
+            <p>&copy; 2023 Charles chimbewa - Web Developer</p>
+        </div>
+    </footer>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
